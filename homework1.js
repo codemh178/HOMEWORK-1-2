@@ -12,23 +12,6 @@ $(document).ready(function() {
     })
 });
 
-//-----------------------TEST-------------------------
-// function onClick(element) {
-//     document.getElementById("img01").src = element.src;
-//     document.getElementById("modal01").style.display = "block";
-//     var captionText = document.getElementById("caption");
-//     captionText.innerHTML = element.alt;
-//   }
-
-// function fullView(imgLink) {
-//     document.getElementById("full-img").src = imgLink;
-//     document.getElementById("full-img-view").style.display = "block";
-// }
-
-// function closeFullView() {
-//     document.getElementById("full-img-view").style.display = "none"
-// }
-
 //--------------SHOW IMAGE ON FULL SCREEN WHEN CLICK--------------
 document.querySelectorAll('.gallery img').forEach(image =>{
     image.onclick = () => {
